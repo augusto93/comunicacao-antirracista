@@ -1,0 +1,58 @@
+/* ==========================================================================
+   Slider com fade (assets/js/main.js -> initSlider)
+   Usado em: hero-slider.php (.imghf) e sobre.php (.slide-container)
+   ========================================================================== */
+
+/* Hero */
+.imghf {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background-color: var(--primary);
+}
+
+.imghf::after {
+  content: "";
+  display: block;
+  padding-top: 59%;
+}
+
+.imghf img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  opacity: 0;
+  visibility: hidden;
+  transform: scale(1.05);
+}
+
+.imghf img.active {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1);
+}
+
+/* Galeria da seção Sobre */
+.slide-container img {
+  position: absolute;
+  top: 15%;
+  right: 2%;
+  height: auto;
+  opacity: 0;
+  visibility: hidden;
+  width: 765px;
+}
+
+.slide-container img.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+@media screen and (max-width: 1080px) {
+  .slide-container {
+    display: none;
+  }
+}

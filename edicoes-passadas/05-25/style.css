@@ -1,0 +1,541 @@
+/* Reset / Global Styles */
+* {
+  padding: 0;
+  margin: 0;
+  vertical-align: baseline;
+  list-style: none;
+  border: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Estrutura Principal */
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.content {
+  max-width: 1220px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #231f20;
+  color: #ffffff;
+  background-image: url("bgsec1.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding: 60px 0 30px 0;
+}
+
+.footer {
+  padding: 70px 0 110px 0;
+  background-color: #231f20;
+  color: #ffffff;
+}
+
+.fooContent {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 0.75rem;
+}
+
+.apoio {
+  display: flex;
+}
+
+.apoio div {
+  padding-right: 45px;
+}
+/* Tipografia */
+h1 {
+  font-family: "Antonio", sans-serif;
+  font-weight: 700;
+  font-size: 3.75rem;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: "Antonio", sans-serif;
+  font-weight: 100;
+  font-size: 3.1875rem;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 2.1875rem;
+}
+
+h5 {
+  font-family: "Antonio", sans-serif;
+  font-weight: 700;
+  font-size: 1.875rem;
+}
+
+h6 {
+  font-family: "Antonio", sans-serif;
+  font-weight: 700;
+  font-size: 1.375rem;
+}
+
+/* Seção 2 */
+#sec2 {
+  width: 100%;
+  height: 1084px;
+  background-color: #231f20;
+  color: #ffffff;
+  background-image: url("bgsec2.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.sec2 {
+  max-width: 435px;
+  padding: 95px 0 195px 0;
+}
+
+.sec2 h1 {
+  color: #1bb24b;
+  padding-bottom: 30px;
+}
+
+.sec2 h4 {
+  color: #ffffff;
+  padding-bottom: 30px;
+}
+
+.sec2 h4 span {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 1.375rem;
+  color: #ffffff;
+}
+
+.sec2 div p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  color: #ffffff;
+}
+
+.sec2 div:nth-child(3) {
+  padding-bottom: 30px;
+}
+
+/* Seção 3 */
+#sec3 {
+  width: 100%;
+  background-color: #1bb24b;
+  color: #231f20;
+  position: relative;
+}
+
+.sec3 {
+  padding: 70px 0 45px 0;
+  border-bottom: 4px solid #231f20;
+}
+
+.sec3 h1,
+.sec3 h2 {
+  color: #231f20;
+}
+
+/* Seção 4 */
+#sec4 {
+  background-color: #1bb24b;
+  color: #231f20;
+  position: relative;
+}
+
+.sec4 {
+  padding: 70px 0 45px 0;
+  border-bottom: 4px solid #231f20;
+}
+
+/* Seção 5 */
+#sec5 {
+  background-color: #1bb24b;
+  color: #231f20;
+  position: relative;
+}
+
+.sec5 {
+  padding: 70px 0 45px 0;
+}
+
+/* Seção 6 */
+#sec6 {
+  width: 100%;
+  height: 1035px;
+  background-color: #ddb774;
+  color: #231f20;
+  background-image: url("bgsec6.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.sec6 {
+  max-width: 495px;
+  padding: 40px 0 525px 0;
+}
+
+.sec6content {
+  width: 100%; 
+  display: flex; 
+  justify-content: flex-end;
+} 
+
+.sec6 h1,
+.sec6 h4 {
+  color: #231f20;
+  padding-bottom: 15px;
+}
+
+.sec6 h4 span {
+  font-family: "Antonio", sans-serif;
+  font-weight: 700;
+  font-size: 0.875rem;
+  color: #231f20;
+}
+
+.sec6 div p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  color: #231f20;
+}
+
+.sec6 div:nth-child(3) {
+  padding-bottom: 30px;
+}
+
+.titlesec6 {
+  font-family: "Antonio", sans-serif !important;
+}
+
+/* Seção 7 */
+#sec7 {
+  width: 100%;
+  height: 1044px;
+  background-color: #ee4133;
+  color: #231f20;
+  background-image: url("bgsec7.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.sec7 {
+  max-width: 435px;
+  padding: 95px 0 195px 0;
+}
+
+.sec7 h1 {
+  color: #231f20;
+}
+
+.watch {
+  font-family: "Antonio", sans-serif !important;
+  font-weight: 100;
+  font-size: 3.1875rem;
+  color: #231f20;
+  margin-bottom: 35px;
+}
+
+.sec7 div p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 0.75rem;
+  color: #231f20;
+}
+
+.sec7 div:nth-child(3) {
+  padding-bottom: 30px;
+}
+
+.sec7 button {
+  font-family: "Antonio", sans-serif;
+  font-weight: 100;
+  font-size: 1.375rem;
+  padding: 5px 15px;
+  margin-bottom: 35px;
+  background-color: #231f20;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+/* Componentes / Utilitários */
+.align {
+  width: 100%;
+  padding-top: 75px;
+  /* display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
+  display: grid;
+	grid-template-columns: repeat(5, 145px);
+  justify-content: space-between;
+}
+
+time {
+  font-family: "Antonio", sans-serif;
+  font-weight: 700;
+  font-size: 1.375rem;
+  color: #1bb24b;
+  background-color: #231f20;
+  padding: 2px 10px;
+  /* width: 100%;
+  max-width: 120px; */
+  text-align: center;
+}
+
+.time h6 {
+  font-family: "Antonio", sans-serif;
+  font-weight: 700;
+  font-size: 1.375rem;
+  color: #1bb24b;
+  background-color: #231f20;
+  padding: 2px 10px;
+  width: 100%;
+  max-width: 120px;
+  text-align: center;
+}
+
+.time p {
+  font-family: "Antonio", sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+  color: #231f20;
+  padding-top: 20px;
+  padding-bottom: 13px;
+  border-bottom: 4px solid #231f20;
+}
+
+.prog {
+  margin: 25px 0 60px 0;
+  padding: 20px 0;
+  border-top: 4px solid #231f20;
+  border-bottom: 4px solid #231f20;
+  display: grid;
+	grid-template-columns: repeat(5, 145px);
+  justify-content: space-between;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-self: baseline;
+  width: 100%;
+}
+
+.info h5 {
+  color: #231f20;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  flex-direction: column;
+}
+
+.info p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 1.25rem;
+  color: #231f20;
+}
+
+.wid {
+  width: 100%;
+}
+
+.wid1 {
+  width: 100%;
+  max-width: 387px;
+  padding: 10px 0 20px 0;
+}
+
+.wid1 img {
+  width: 100%;
+}
+
+.wid2 {
+  width: 100%;
+  max-width: 774px;
+  padding-top: 10px;
+}
+
+.wid2 img {
+  width: 100%;
+}
+
+.wid3 {
+  max-width: 300px;
+}
+
+.wid4{
+  width: 100%;
+  max-width: 467px;
+}
+
+.wid5 {
+  width: 100%;
+  max-width: 572px;
+}
+
+.widflex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.widflex2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.schedule {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.schedule-people {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.speaker {
+  font-family: "Antonio", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+
+.headline {
+  font-size: 1.25rem;
+  font-weight: 700;
+  padding: 25px 0 15px 0;
+}
+
+.description {
+  font-size: 1rem;
+  line-height: 1.2rem;
+  font-weight: 400;
+}
+
+.input {
+  font-family: "Antonio", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #ddb774;
+  background-color: #231f20;
+  padding: 0px 20px 5px 20px;
+  text-transform: uppercase;
+  max-width: 268px;
+  text-align: center;
+}
+
+.bordak {
+  margin-top: 15px;
+  padding-top: 30px; 
+  border-top: 4px solid #231f20;
+}
+
+.hidemob {
+  display: none;
+}
+
+.socialmedia {
+  height: 123px;
+  align-items: center;
+}
+
+.mobnumb {
+  font-family:'Antonio', sans-serif; 
+  font-size: 3.4375rem; 
+  font-weight: 700; 
+  color: #231f20;
+}
+
+@media screen and (max-width: 1080px) {
+
+  .sec2, .sec3, .sec4, .sec5, .sec6, .sec7 {
+    padding: 20px;
+  }
+  
+  #sec2, #sec6, #sec7 {
+    background-image: none;
+    height: auto;
+  }
+
+  .sec6content {
+    justify-content: flex-start;
+  }
+
+  .sec6 div:nth-child(3) {
+    padding-bottom: 0px;
+  }
+
+  .bordak {
+    padding-bottom: 50px;
+  }
+
+  .showmob {
+    display: initial;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .prog {
+    margin: 25px 0;
+    padding: 15px 0;
+    grid-template-columns: 1fr;
+  }
+
+  .fooContent {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .widflex {
+    padding: 20px 0;
+  }
+
+  .widflex2 {
+    flex-direction: column;
+  }
+
+  .socialmedia {
+    padding: 20px 0;
+    align-items: flex-start;
+  }
+
+  .mobnumb {
+    font-size: 1.75rem; 
+  }
+
+  .input {
+    font-size: 2rem;
+    padding: 0px 5px 5px 5px;
+    max-width: 230px;
+  }
+}

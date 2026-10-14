@@ -1,0 +1,34 @@
+# ---------------------------------------------------------------
+# Comunicação Antirracista — arquivos que não vão para o Git
+# ---------------------------------------------------------------
+
+# Backup local do projeto antes da reorganização (inclui TAPUME/).
+# Também não deve ser publicado no servidor.
+_backup/
+
+# Arquivos de sistema
+.DS_Store
+._*
+Thumbs.db
+desktop.ini
+
+# Editores / IDEs (configurações pessoais)
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Dependências e ferramentas (caso alguém rode npm para testes/medições)
+node_modules/
+package-lock.json
+npm-debug.log*
+
+# Logs e temporários
+*.log
+*.tmp
+.cache/
+
+# Variáveis de ambiente / credenciais (nunca versionar)
+.env
+.env.*

@@ -1,0 +1,14 @@
+DirectoryIndex index.html
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # Todos os PDFs ficam em assets/docs/. Mantém funcionando os endereços antigos:
+  #   /comunicacaoantirracista_*.pdf               (antes na raiz)
+  #   /edicoes-passadas/09-25/comunicacaoantiracista_*.pdf  (antes na pasta da edição Rio)
+  RewriteRule ^(comunicacaoantir+acista_[^/]+\.pdf)$ assets/docs/$1 [L]
+  RewriteRule ^edicoes-passadas/[^/]+/(comunicacaoantir+acista_[^/]+\.pdf)$ assets/docs/$1 [L]
+
+  # Não expor o backup
+  RewriteRule ^_backup(/|$) - [F,L]
+</IfModule>

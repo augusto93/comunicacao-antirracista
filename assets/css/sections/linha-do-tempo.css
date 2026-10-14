@@ -1,0 +1,79 @@
+/* ==========================================================================
+   Linha do tempo (template-parts/sections/linha-do-tempo.php)
+   ========================================================================== */
+
+#sec2Linha {
+  width: 100%;
+  height: 100%;
+  min-height: 650px;
+  background-color: var(--black);
+  color: var(--white);
+  background-image: url("../../img/backgrounds/bgsec2info.webp");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  position: relative;
+}
+
+.sec2Linha {
+  color: var(--white);
+  width: 100%;
+  max-width: 960px;
+}
+
+.sec2Linha div {
+  font-family: var(--font-display);
+  font-weight: 300;
+  font-size: 3.75rem; /* 60px */
+  color: var(--secondary);
+  width: 100%;
+}
+
+.infoLinha {
+  display: flex;
+  justify-content: space-between;
+  align-self: baseline;
+}
+
+.infoLinha h5 {
+  color: var(--secondary);
+  padding-top: 10px;
+  margin-top: 10px;
+  padding-bottom: 22px;
+  text-transform: uppercase;
+  flex-direction: column;
+  border-top: 4px solid var(--white);
+}
+
+.infoLinha p {
+  font-family: var(--font-body);
+  font-weight: 300;
+  font-size: 1.25rem;
+  color: var(--white);
+}
+
+.infoLinha time {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: 1.375rem;
+  color: var(--black);
+  background-color: var(--secondary);
+  padding: 5px 20px;
+}
+
+@media screen and (max-width: 1080px) {
+  .sec2Linha {
+    padding: 20px !important;
+    width: auto;
+  }
+
+  #sec2Linha {
+    background-image: none;
+    height: auto;
+    min-height: auto;
+  }
+
+  .infoLinha {
+    flex-wrap: wrap;
+  }
+}

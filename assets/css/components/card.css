@@ -1,0 +1,40 @@
+/* ==========================================================================
+   Card de participante (template-parts/components/card-participante.php)
+   ========================================================================== */
+
+.card {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.card-content {
+  position: absolute;
+  inset: 0;
+  background-color: var(--black);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  padding: 19%;
+}
+
+/* :focus-within permite abrir o card pelo teclado/toque */
+.card:hover img,
+.card:focus-within img {
+  transform: scale(1.1);
+}
+
+.card:hover .card-content,
+.card:focus-within .card-content {
+  opacity: 1;
+}

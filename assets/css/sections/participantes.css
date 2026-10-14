@@ -1,0 +1,77 @@
+/* ==========================================================================
+   Participantes (template-parts/sections/participantes.php)
+   Card: components/card.css
+   ========================================================================== */
+
+#sec4 {
+  background-color: var(--primary);
+  color: var(--black);
+  position: relative;
+}
+
+.sec4 {
+  padding: 50px 0 15px 0;
+}
+
+.gridParticipantes {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 0;
+  border: none;
+  margin: 0;
+  padding: 80px 0 150px 0;
+}
+
+.gridParticipantes img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.gridParticipantes > div {
+  overflow: hidden;
+}
+
+.gridPartiTexto {
+  background-color: var(--black);
+  color: var(--white);
+  font-size: 0.8125rem; /* 13px */
+}
+
+.gridPartiTexto > div:first-child {
+  font-family: var(--font-display);
+  font-size: 2.1875rem; /* 35px */
+  color: var(--sand);
+}
+
+.gridDisclaimer {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  color: var(--black);
+  font-size: 1.25rem; /* 20px */
+}
+
+.gridDisclaimer div {
+  font-family: var(--font-display);
+}
+
+@media screen and (max-width: 1080px) {
+  .sec4 {
+    padding: 20px !important;
+  }
+
+  .gridParticipantes {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    padding: 20px 0;
+  }
+
+  .gridDisclaimer {
+    flex-direction: column;
+    text-align: center;
+  }
+}

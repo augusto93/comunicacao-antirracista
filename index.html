@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Um evento presencial para ouvir, refletir e agir sobre esse tema tão premente e primordial: a Comunicação Antirracista. Palestras, mesas de debate e shows com grandes especialistas, ativistas, estudiosos e artistas do Brasil. Porque só com consciência despertamos, só com resistência avançamos e só com ação mudamos, de verdade, o mundo.">
+  <title>Comunicação Antirracista</title>
+
+  <!-- CSS: base → componentes → seções (no WP: wp_enqueue_style no functions.php) -->
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/components/header.css">
+  <link rel="stylesheet" href="assets/css/components/footer.css">
+  <link rel="stylesheet" href="assets/css/components/slider.css">
+  <link rel="stylesheet" href="assets/css/components/card.css">
+  <link rel="stylesheet" href="assets/css/sections/destaque.css">
+  <link rel="stylesheet" href="assets/css/sections/sobre.css">
+  <link rel="stylesheet" href="assets/css/sections/linha-do-tempo.css">
+  <link rel="stylesheet" href="assets/css/sections/programacao.css">
+  <link rel="stylesheet" href="assets/css/sections/participantes.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="57x57" href="assets/img/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="assets/img/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="assets/img/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="assets/img/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="assets/img/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="assets/img/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="assets/img/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="assets/img/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/img/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="assets/img/favicon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="assets/img/favicon/ms-icon-144x144.png">
+</head>
+<body>
+  <main class="container">
+    <!-- Cada bloco é substituído pelo componente de mesmo nome em assets/js/components/ -->
+    <div data-component="header"></div>
+    <div data-component="hero-slider"></div>
+    <div data-component="destaque"></div>
+    <div data-component="sobre"></div>
+    <div data-component="linha-do-tempo"></div>
+    <div data-component="programacao"></div>
+    <div data-component="participantes"></div>
+    <div data-component="footer"></div>
+  </main>
+
+  <!-- GSAP e ScrollTrigger -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+  <script type="module" src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,91 @@
+/* ==========================================================================
+   Footer (footer.php)
+   ========================================================================== */
+
+.footer {
+  background-color: var(--black);
+  color: var(--white);
+}
+
+.fooContent {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.footer p {
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: 0.75rem;
+}
+
+.wid4 {
+  width: 100%;
+  max-width: 590px;
+}
+
+.wid5 {
+  padding-top: 60px;
+  width: 100%;
+  max-width: 572px;
+}
+
+.footer-acessibilidade {
+  padding-bottom: 35px;
+  margin-bottom: 40px;
+  border-bottom: 1px var(--white) solid;
+}
+
+.footer-acessibilidade__inner {
+  display: flex;
+  width: 100%;
+  max-width: 445px;
+}
+
+.footer-acessibilidade__icon {
+  padding-right: 15px;
+  width: 60px;
+  height: 60px;
+}
+
+.footer-logo {
+  width: 110px;
+}
+
+.footer-contato {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  flex-wrap: wrap;
+  padding-bottom: 30px;
+  font-size: 12px;
+  align-items: center;
+}
+
+.footer-social {
+  padding-top: 10px;
+}
+
+.footer-social img {
+  width: 25px;
+}
+
+.footer .footer-apoio {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  background-color: var(--primary);
+  color: black;
+  padding-left: 10px;
+}
+
+.footer-patrocinio {
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 1080px) {
+  .fooContent {
+    flex-direction: column;
+    padding: 20px;
+  }
+}
